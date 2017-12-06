@@ -1,0 +1,13 @@
+<h2>add task</h2>
+<input [(ngModel)]="task.name" #name> <button (click)="onClick(name.value)">add and update my database</button>
+<div>{{ task.name }}</div>
+<h1>{{ response | json }}</h1>
+
+<h2>my tasks</h2>
+
+<ul>
+  <li *ngFor="let taskItem of tasks">{{ taskItem.name }}
+    <!--<button (click)="submitDone(taskItem.name)">done</button>-->
+    <!--<button (click)="onRemove(taskItem.name)">remove</button>-->
+  </li>
+</ul>
