@@ -1,0 +1,94 @@
+array -> object -> sets
+
+el constructor da 3bara 3n function bs leha khawas el object :D
+
+
+variables = 
+
+boolean = false;?
+while(x)
+
+"strings".methods(), Math.method(numbers99), arrays[].methods(), objects.methods, set.methods, map.methods() functions.methods() - callback functions.
+
+CUNSTRUCTOR
+
+
+
+"strings".methods() -> "abc".substr(start, end);
+---------------------------------------------------------------------------------
+Math.method(numbers99) -> Math.floor(10.1);
+---------------------------------------------------------------------------------
+arrays[].methods() -> 
+const total = [0, 1, 2, 3].reduce((sum, value) => sum + value, 1);
+
+**12, 5, 8, 130, 44].filter(isBigEnough);
+-----------------------------------------
+
+function isBigEnough(value) {
+  return value >= 10;
+}
+
+var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
+// filtered is [12, 130, 44]
+---------------------------------------------------------------------------------
+Object.entries() --> 
+Úַדבֹ װזַםַ ׂם ַב Math Úװַה בַׂד ה׃ÊÚםה ָßבדֹ Object Úװַה ה׃Ê־ֿד ַב method ÊָÚוַ
+
+const obj = { foo: 'bar', baz: 42 };
+console.log(Object.entries(obj)); // [ ['foo', 'bar'], ['baz', 42] ]
+[ ['foo', 'bar'], ['baz', 42] ]
+
+ּזַוַ properies
+דדßה 
+Ê assign
+זדדßה
+Ê delete
+----------------------------------------------------------------------------------
+set.methods()
+set.add("bla");
+----------------------------------------------------------------------------------
+map.method()
+Map.prototype.get(key)
+-----------------------------------------------------------------------------------
+var x = function()
+-----------------------------------------------------------------------------------
+Object:
+Object.defineProperties()
+Object.defineProperty()
+Object.entries()
+-----------------------------------------------------------------------------------
+CONSTRUCTOR
+Úַָֹׁ Úה
+function
+Ýםוַ ־זַױ ַב
+objects
+
+דדßה Ê׃ָֽ דהוַ ה׃־
+
+זÊזבֿ דהוַ Úםַב
+ָ׃ ßב Úםב בםו ֳױב 
+
+chain
+
+זדדßה ßב Úםב ם־בÝ זַֿ Êַהם
+זַ־ֿ דה ּֿו ßב ַֹּֽ
+זדÊײַÝ Úבםו ַַּֽÊ ַָזו ßבוַ
+
+זַׂםֿ Úבםו ַּֽÊו וז ָ׃ 
+
+
+
+דדßה ָÞַ ה׃ָֽ דהוד ַ׃Êהַָ״ַÊ 
+
+זßב ַב ַ׃Êהַָ״ ֿם ָÊױָ Ýם ַבַֿÊַ ׃Êַׁßװׁ ַבבם ַֽהַ ָהָהםוַ :D
+
+
+
+ַבבם ָֿזׁוַ דÊױבֹ ַָב database
+
+דה ־בַב 
+server side programing language
+
+
+דÚהל ßַֿ דה ַבבם ַהַ ÝודÊו ַה ßב stack Úַָֹׁ Úה ָׁהַדּ דהÝױב Ýםו methods Úװַה הװזÝוַ Ýַײםֹ דֻבַנ ַז הײםÝ ַז הװםב זßַֿ 
+
