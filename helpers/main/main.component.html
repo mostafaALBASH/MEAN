@@ -1,0 +1,61 @@
+
+
+
+
+
+<div class="ui-g">
+  <div class="ui-g-2">
+
+
+    <button pButton label="generator demo" (click)="toggleDemoFile()"></button>
+    <button pButton label="ملف الموظف" (click)="toggleEmployeeFile()"></button>
+    <button pButton label=" المؤهلات " (click)="toggleQual()"></button>
+    <button pButton label="بيانات الوظيفة الحالية" (click)="toggleCurrState()"></button>
+
+    <button pButton label="سجل الاجازات" (click)="toggleVactions()"></button>
+
+
+    <button pButton label="بيانات الاتصال" (click)="toggleContacts()"></button>
+
+
+    <button pButton label="الخبرات " (click)="toggleExperinces()"></button>
+
+
+    <button pButton label="الدورات " (click)="toggleCourses()"></button>
+
+    <button pButton label="اللغات " (click)="toggleLanguages()"></button>
+
+
+
+
+    <button pButton label="بيانات التابعين " (click)="toggleCompanions()"></button>
+
+
+  </div>
+
+   
+
+
+   
+  <div class="ui-g-10">
+    <app-qualifications *ngIf="components.quals == true"></app-qualifications>
+    <app-currentState *ngIf="components.curr_state == true"></app-currentState>
+    <app-demoGenerator *ngIf="components.demo_generator == true"></app-demoGenerator>
+    <app-mainData *ngIf="components.emp_file == true"></app-mainData>
+
+    <app-companion *ngIf="components.companion == true"></app-companion>
+    <app-language *ngIf="components.languages == true"></app-language>
+    <app-courses *ngIf="components.courses == true"></app-courses>
+    <app-experience *ngIf="components.experiences == true"></app-experience>
+    <app-callData *ngIf="components.contacts"></app-callData>
+    <app-vacation  *ngIf="components.vactions == true"></app-vacation>
+
+
+
+
+
+
+
+  </div>
+
+</div>

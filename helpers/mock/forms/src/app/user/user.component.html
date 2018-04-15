@@ -1,0 +1,20 @@
+<p>
+  user works!
+</p>
+<h1></h1>
+<form #myForm="ngForm" (ngSubmit)="setSubmit(myForm.value)">
+
+  <input type="text" placeholder="username" name="username" ngModel [(ngModel)]="myData.name">
+  <div ngModelGroup="hobbies">
+    <input type="text" placeholder="hobbie1" name="hobbie1" ngModel [(ngModel)]="myData.h1">
+    <input type="text" placeholder="hobbie2" name="hobbie2" ngModel [(ngModel)]="myData.h2">
+    <input type="text" placeholder="hobbie3" name="hobbie3" ngModel [(ngModel)]="myData.h3">
+  </div>
+  <input type="submit" value="ok" name="submit">
+
+</form>
+
+<ul *ngFor="let post of posts">
+  <li>{{post.title}}</li>
+</ul>
+
