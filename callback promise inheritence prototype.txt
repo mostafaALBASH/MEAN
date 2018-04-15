@@ -1,0 +1,118 @@
+
+Çáprototype :-
+- áãÇ ÈíÌí ÈÚÏåÇ . 
+íÈŞÇ åäÖíİ ÈÚÏåÇ method áá class
+
+ÇáæÑÇËÉ inheritence :-
+
+function Person(first, last, age, gender, interests) {
+  this.name = {
+    first,
+    last
+  };
+  this.age = age;
+  this.gender = gender;
+  this.interests = interests;
+};
+
+
+function Teacher(first, last, age, gender, interests, subject) {
+  Person.call(this, first, last, age, gender, interests);
+
+  this.subject = subject;
+}
+
+
+type variables
+
+let a = {}
+let a []
+
+
+what's true about numbers in javascript?
+there is no such type as integer
+
+
+
+const data = [{a: true, b:false}, {a: false, b: true}];
+
+let result = fasle;
+let sample;
+while (sample = data.pop()) {
+result = sample.a;
+}
+console.log(result);
+
+
+-------------
+
+constructor :
+
+higher level of abstraction in the
+creation of objects. In this section
+
+áæ ÚÇíÒ ÇáÊÛííÑ Úáì obj æÇÍÏ ÈÓ Çæ ÊÖíİ function áíå åæ ÈÓ 
+ãä ÛíÑ prototype
+áæ ÚÇíÒ Úáì Çá obj Çá main constructor ÈÊÚãá prototype
+
+Constructor.prototype.membername = value;
+
+
+
+
+
+The ECMAScript 2015 (also known as ECMAScript 6 or ES6) specifications introduce the
+class construct in JavaScript too. However, this construct has nothing to do with the classes
+of the traditional Object-Oriented Programming paradigm.
+
+
+The JavaScript class construct provides a
+much simpler and clearer syntax for managing constructors, prototypes, and inheritance.
+The new class construct creates order among the different ways of object creation and aims
+to apply the best practice in prototype management.
+
+
+
+
+
+
+
+
+
+function TheatreSeats() {
+var seats = [];
+this.placePerson = function(person) {
+seats.push(person);
+};
+this.showSeats = function {
+for(var i = 0; i < seats.length; i++){
+var
+}
+}
+}
+
+
+
+
+
+-: CALLBACK FUNCTION
+e7na benafez el function elly parameter bta3ha (callback)
+we beyb2a gowa el parameter elly beytnafez function tania
+
+
+PROMISE
+
+let myFirstPromise = new Promise((resolve, reject) => {
+  // We call resolve(...) when what we were doing asynchronously was successful, and reject(...) when it failed.
+  // In this example, we use setTimeout(...) to simulate async code. 
+  // In reality, you will probably be using something like XHR or an HTML5 API.
+  setTimeout(function(){
+    resolve("Success!"); // Yay! Everything went well!
+  }, 10000);
+});
+
+myFirstPromise.then((successMessage) => {
+  // successMessage is whatever we passed in the resolve(...) function above.
+  // It doesn't have to be a string, but if it is only a succeed message, it probably will be.
+  console.log("Yay! " + successMessage);
+});
